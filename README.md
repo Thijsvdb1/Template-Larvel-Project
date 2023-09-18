@@ -21,6 +21,14 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
+
+## Instructie Project.
+
+Laravel 10 User Roles and Permissions Tutorial - ItSolutionStuff.com
+
+Je zal nog de 2 seeders moeten pushen zodat je de admin-user aanmaakt en de permissions. Migrations moet je ook pushen, dit doe je verder allemaal in de commandline. En de database connecten/aanmaken. Verder zou het moeten werken.
+
+
 ## Learning Laravel
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
