@@ -56,7 +56,10 @@ Je zal nog de 2 seeders moeten pushen zodat je de admin-user aanmaakt en de perm
 - https://techvblogs.com/blog/get-data-between-two-dates-laravel
   Get data between 2 dates.
   
-- To give a new user a role when created u have to be in the auth register controller, remove the first return so that it doesn't close. then this:  protected function create(array $data)
+- To give a new user a role when created u have to be in the auth register controller, remove the first return so that it doesn't close. then this:
+
+```
+  protected function create(array $data)
     {
         $user =  User::create([
             'name' => $data['name'],
@@ -67,7 +70,8 @@ Je zal nog de 2 seeders moeten pushen zodat je de admin-user aanmaakt en de perm
 
             $user->assignRole('Name_of_the_Role');
             return $user;
-    } 
+    }
+```
 every user that is created gets the 'Name_of_the_Role' role, Now u only need to give the customer certain permissions and you good to go. 
   
 
